@@ -1,0 +1,15 @@
+//To create a database table named movies with the required columns
+CREATE TABLE MOVIES(MOV_ID NUMBER(4),MOV_TITLE VARCHAR(25),MOV_YEAR NUMBER(4),DIR_NAME VARCHAR(20),HERO VARCHAR(25),HEROINE VARCHAR(20));
+
+
+//TO insert the values into the table
+INSERT INTO TABLE_NAME VALUES("VALUE1","VALUE2","VALUE3","VALUE4","VALUE5","VALUE6");
+
+//To Insert the values into the table movies
+INSERT INTO MOVIES VALUES("mov_ID","mov_TITLE","MOV_YEAR","DIREC_NAME","ACTOR_NAME","ACTRESS_NAME");
+
+//To select the Table MOVIES with all the attributes
+SELECT * FROM MOVIES;
+
+//To select the movies names with the actor name
+SELECT MOV_TITLE FROM MOVIES WHERE HERO="ACTOR_NAME";
